@@ -23,10 +23,6 @@ def printCard(c):
             print(i%13+1, end=" ")
     print()
 
-
-
-
-
 def printMessage():
     print("Player Card:", end="")
     printCard(playerCard)
